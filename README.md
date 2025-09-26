@@ -1,7 +1,7 @@
 This script creates, enables, and runs a systemd service called remove-kvm.service.
 The purpose of the service is to remove KVM kernel modules (kvm_intel and kvm) at system startup to prevent them from loading automatically.
 
-What it does:
+**What it does:**
 
 Creates the systemd service file at /etc/systemd/system/remove-kvm.service.
 
